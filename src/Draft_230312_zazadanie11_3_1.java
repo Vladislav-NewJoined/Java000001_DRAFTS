@@ -12,18 +12,20 @@ public class Draft_230312_zazadanie11_3_1 {
 
     public static void main(String[] args) {
         /* инфо здесь: https://ru.stackoverflow.com/questions/1275581/%D0%9A%D0%B0%D0%BA-%D1%81-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E-scanner-%D1%81%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D1%8C-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D1%83-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E-%D1%81-%D1%83%D1%87%D1%91%D1%82%D0%BE%D0%BC-%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%BB%D0%BE%D0%B2 */
-
-        Scanner scan1 = new Scanner(System.in); //new InputStreamReader
-        System.out.print("Enter an Initial word: ");
-        String inWord = scan1.next();
-        int n = 2;
-        System.out.print("Player 2, enter a numbers of chars 1, 2: ");
-        //int charsFirst =
+        // Здесь полезная инфо есть: https://www.examclouds.com/ru/java/java-core-russian/console-vvod-vivod
+        Scanner inWordScan = new Scanner(System.in); //new InputStreamReader
+        Scanner scan1 = new Scanner(System.in);
+        Scanner scan2 = new Scanner(System.in);
+        System.out.print("Enter an Initial Word: ");
+        String inWord = inWordScan.next();
         int num1 = scan1.nextInt();
-        int num2 = scan1.nextInt();
-        System.out.print(num1);
-        System.out.print(" ");
-        System.out.print(num2);
+        int num2 = scan2.nextInt();
+        //int n = 2;
+        System.out.println("Player 2, enter a numbers of chars 1, 2: " + num1 + num2);
+        //int charsFirst =
+        System.out.print(num1 + num2);
+        //System.out.print(" ");
+        //System.out.print(num2);
 
 
 
