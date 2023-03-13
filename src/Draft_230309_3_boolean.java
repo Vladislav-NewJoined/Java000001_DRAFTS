@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Draft_230309_2_boolean {
+public class Draft_230309_3_boolean {
     public static void main(String[] args) {
         String tru = "true";
         Scanner scanner = new Scanner(System.in);

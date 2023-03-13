@@ -5,7 +5,7 @@ public class Draft_230311_largest {
             int с = 8;
             int d = 7;
             int e = 6;
-            int maxOfFive (int a, int b, int c, int d, int e);
+            // int maxOfFive (int a, int b, int c, int d, int e);
             int largest = a;
                     System.out.println("Hello");
         }
